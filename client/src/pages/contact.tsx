@@ -43,7 +43,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-navy">Get In Touch</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-navy">Hubungi Saya</h2>
           <motion.div 
             className="w-24 h-1 bg-gold mx-auto"
             initial={{ width: 0 }}
@@ -51,7 +51,7 @@ export default function Contact() {
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
           />
-          <p className="text-xl text-gray-600 mt-6">Let's work together on your next project</p>
+          <p className="text-xl text-gray-600 mt-6">Mari bekerja sama untuk proyek Anda selanjutnya</p>
         </motion.div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

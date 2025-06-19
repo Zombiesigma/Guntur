@@ -11,7 +11,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-navy">About Me</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-navy">Tentang Saya</h2>
           <motion.div 
             className="w-24 h-1 bg-gold mx-auto"
             initial={{ width: 0 }}
@@ -29,11 +29,18 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
-              alt="Guntur Padilah - Professional Photo" 
-              className="w-full max-w-md mx-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
-            />
+            <div className="w-full max-w-md mx-auto">
+              <div className="bg-gradient-to-br from-navy to-navy/80 rounded-2xl shadow-2xl p-8 text-center transform hover:scale-105 transition-transform duration-300">
+                <div className="w-48 h-48 mx-auto mb-4 bg-gold/20 rounded-full flex items-center justify-center">
+                  <div className="text-6xl font-bold text-gold">GP</div>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">Guntur Padilah</h3>
+                <p className="text-gold text-sm">Frontend Developer</p>
+                <div className="mt-4 text-xs text-gray-300">
+                  Silakan upload foto profesional Anda di sini
+                </div>
+              </div>
+            </div>
           </motion.div>
           
           <motion.div 

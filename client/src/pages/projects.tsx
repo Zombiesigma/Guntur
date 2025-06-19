@@ -12,7 +12,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-white">My Projects</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-white">Proyek Saya</h2>
           <motion.div 
             className="w-24 h-1 bg-gold mx-auto"
             initial={{ width: 0 }}

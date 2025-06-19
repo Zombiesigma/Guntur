@@ -62,14 +62,14 @@ export default function Home() {
           >
             <motion.button
               onClick={() => scrollToSection('projects')}
-              className="bg-gold hover:bg-gold text-navy px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300"
+              className="bg-gold hover:bg-yellow-400 text-navy px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: "0 20px 40px rgba(245, 197, 24, 0.3)"
               }}
               whileTap={{ scale: 0.95 }}
             >
-              View My Projects
+              Lihat Proyek Saya
             </motion.button>
           </motion.div>
         </motion.div>
