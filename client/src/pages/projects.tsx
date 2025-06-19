@@ -37,33 +37,37 @@ export default function Projects() {
             }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400" 
-              alt="Litera - Modern Web Application" 
+              src="app.png" 
+              alt="Litera - eBook Web Application" 
               className="w-full h-48 object-cover"
             />
             
             <div className="p-6">
               <h3 className="text-2xl font-bold text-navy mb-3">Litera</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                A modern web application built with Next.js and Tailwind CSS. 
-                Features responsive design, smooth animations, and an intuitive user interface 
-                that provides an excellent user experience across all devices.
+                Aplikasi eBook web modern yang dibangun dengan Python, Flask dan Tailwind CSS. 
+Menampilkan desain responsif, animasi halus, dan antarmuka pengguna intuitif 
+yang memberikan pengalaman pengguna yang sangat baik.
               </p>
               
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm font-medium">Next.js</span>
+                <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm font-medium">Python</span>
                 <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm font-medium">Tailwind CSS</span>
-                <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm font-medium">React</span>
+                <span className="bg-navy/10 text-navy px-3 py-1 rounded-full text-sm font-medium">Flask</span>
               </div>
               
               <motion.button 
-                className="bg-gold hover:bg-gold text-navy px-6 py-3 rounded-lg font-semibold transition-all duration-300 w-full flex items-center justify-center gap-2"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <ExternalLink className="w-4 h-4" />
-                Visit Project
-              </motion.button>
+
+onClick={() => window.open('https://literaguntur.pythonanywhere.com', '_blank')} // Ganti URL
+
+className="bg-gold hover:bg-gold text-navy px-6 py-3 rounded-lg font-semibold">
+
+<ExternalLink className="w-4 h-4" />
+
+Visit Project
+
+</motion.button>
+
             </div>
           </motion.div>
           

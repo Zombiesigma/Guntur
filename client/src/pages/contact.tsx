@@ -100,7 +100,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       className="mt-2 focus:ring-gold focus:border-gold"
-                      placeholder="your.email@example.com"
+                      placeholder="gunturfadilah140@gmail.com"
                     />
                   </motion.div>
                   
@@ -152,11 +152,11 @@ export default function Contact() {
             viewport={{ once: true }}
           >
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-navy">Let's connect</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-navy">Ayo terhubung</h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                I'm always interested in new opportunities and collaborations. 
-                Whether you have a project in mind or just want to say hello, 
-                I'd love to hear from you.
+                Saya selalu tertarik dengan peluang dan kolaborasi baru. 
+Apakah Anda memiliki proyek yang ingin Anda kerjakan atau sekadar ingin menyapa, 
+Saya ingin sekali mendengar kabar dari Anda.
               </p>
             </div>
             
@@ -173,7 +173,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Email</h4>
-                  <p className="text-gray-600">guntur.padilah@example.com</p>
+                  <p className="text-gray-600">gunturfadilah140@gmail.com</p>
                 </div>
               </motion.div>
               
@@ -189,7 +189,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Phone</h4>
-                  <p className="text-gray-600">+62 812-3456-7890</p>
+                  <p className="text-gray-600">+62 856-5554-8656</p>
                 </div>
               </motion.div>
               
@@ -205,7 +205,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-navy">Location</h4>
-                  <p className="text-gray-600">Jakarta, Indonesia</p>
+                  <p className="text-gray-600">Sukabumi, Jawa Barat, Indonesia</p>
                 </div>
               </motion.div>
             </div>

@@ -30,17 +30,12 @@ export default function About() {
             viewport={{ once: true }}
           >
             <div className="w-full max-w-md mx-auto">
-              <div className="bg-gradient-to-br from-navy to-navy/80 rounded-2xl shadow-2xl p-8 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="w-48 h-48 mx-auto mb-4 bg-gold/20 rounded-full flex items-center justify-center">
-                  <div className="text-6xl font-bold text-gold">GP</div>
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-2">Guntur Padilah</h3>
-                <p className="text-gold text-sm">Frontend Developer</p>
-                <div className="mt-4 text-xs text-gray-300">
-                  Silakan upload foto profesional Anda di sini
-                </div>
-              </div>
-            </div>
+  <img 
+    src="/profile-photo.jpg" 
+    alt="Guntur Padilah - Professional Photo" 
+    className="w-full max-w-md mx-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300 object-cover"
+  />
+</div>
           </motion.div>
           
           <motion.div 
@@ -59,9 +54,7 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                I'm a passionate Frontend Developer with expertise in modern web technologies. 
-                I specialize in creating beautiful, responsive, and user-friendly web applications 
-                using React, Next.js, and Tailwind CSS.
+                Saya seorang Pengembang Frontend yang bersemangat dengan keahlian dalam teknologi web modern. Saya mengkhususkan diri dalam menciptakan aplikasi web yang indah, responsif, dan ramah pengguna.
               </motion.p>
               <motion.p 
                 className="text-lg text-gray-700 leading-relaxed mb-6"
@@ -70,19 +63,18 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                My journey in web development started with a curiosity about how websites work, 
-                and it has evolved into a passion for crafting digital experiences that make a difference. 
-                I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends.
+                Perjalanan saya dalam pengembangan web dimulai dengan rasa ingin tahu tentang cara kerja situs web, 
+dan telah berkembang menjadi hasrat untuk menciptakan pengalaman digital yang membuat perbedaan. 
+           
               </motion.p>
               <motion.p 
                 className="text-lg text-gray-700 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }
                 transition={{ duration: 0.6, delay: 0.8 }}
                 viewport={{ once: true }}
               >
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing knowledge with the developer community.
+                Saat saya tidak sedang membuat kode, Anda dapat menemukan saya menjelajahi teknologi baru, berkontribusi pada proyek sumber terbuka, atau berbagi pengetahuan dengan komunitas pengembang.
               </motion.p>
             </div>
             
